@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网站图片处理</title>
+    <link type="text/css" rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+<div class="main">
+<div class="head">
+    爱购商城推广图片处理程序
+</div>
+    <hr class="hr">
+<div class="left"><!--左边区域-->
+    <div class="head1">
+        选择下载信息
+        <hr class="hr">
+    </div>
+    <div id="l_info">
+        请选择目录:
+        <input type="file" id="load" />
+        <input type="button" value="开始下载" onclick=""/>
+    </div>
+
+    <br/><br/>
+    请选择要下载的文档链接：<input type="text"  id="url" name="url"/>
+    <br/><br/>
+    <input type="button" value="下载详情图" onclick="check();"/>
+    <div class="ling" id="ling"></div>
+
+</div>
+<div class="right"><!--右边区域-->
+    <div class="head1">
+        选择处理信息
+        <hr class="hr">
+    </div>
+    <div id="r_info">
+       请选择目录:
+        <input type="file" id="deal" />
+        <input type="button" value="开始处理" onclick=""/>
+    </div>
+</div>
+
+</div>
+<script src="src/js/script.js?V=1.0"></script>
+</body>
+</html>

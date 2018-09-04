@@ -1,0 +1,1033 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="Generator" content="ECSHOP v3.6.0" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="" />
+<meta name="Description" content="" />
+
+<title>Children's Clothing_Clothing_Igo2all - Powered by Igo</title>
+
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<link href="themes/default/style.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/common.js"></script><script type="text/javascript" src="js/compare.js"></script></head>
+<body>
+<script type="text/javascript" src="js/jquery.js"></script><script type="text/javascript" src="js/jquery.json.js"></script><script type="text/javascript" src="js/utils.js"></script>
+<style type="text/css">
+body{font-size:12px;font-family:Arial, Helvetica, sans-serif;  line-height:150%; margin:0px; padding:0px;}
+
+</style>
+<script type="text/javascript">
+var process_request = "Please waiting...";
+</script>
+<div class="top-bar">
+  <div class="fd_top fd_top1">
+    <div class="bar-left">
+          <div class="top_menu1"> <script type="text/javascript" src="js/transport.js"></script> <font id="ECS_MEMBERZONE"><div id="append_parent"></div>
+<a href="user.php">Sign in <strong></strong></a>&nbsp;|&nbsp;&nbsp;<a href="user.php?act=register">Register</a>  </font> </div>
+    </div>
+    <div class="bar-cart">
+
+    <form action="" style="display:none" method="post" id="language-view-form1" name="language_view_form1">
+     <input type="hidden" name="language" value=""/>
+     </form>
+        <div class="language">
+        	<a href="javascript:jumpLanguage('zh_cn')" >中文</a>
+            <a href="javascript:jumpLanguage('en_us')" class="sel">English</a>
+        </div>
+         <script language="javascript">
+    <!--
+    function jumpLanguage(language)
+    {
+        document.language_view_form1.language.value = language;
+        document.language_view_form1.action=window.location;
+        document.language_view_form1.submit();
+    }
+
+    
+    $(function () {
+
+
+            var li_arr = new Array(); //定义li元素数组
+            var li_content = "", pos = 0,flag = false;
+
+
+            $(".m_left ul li").each(function (index) {
+
+                var tab = $(this).children().attr("id"); //识别ID
+
+
+                if(flag == false)
+                {
+                    if(tab == "more_sort") //判断是否为标记ID
+                    {
+                        pos = index;
+                        flag = true;
+                    }
+                }
+
+
+               if(flag == true)
+               {
+                   if(index > pos) //找到标记，存入剩下的菜单项作为子项
+                   {
+                       li_arr.push($(this).html());
+                       $(this).remove();
+                   }
+               }
+
+            });
+
+
+            /* 循环输出菜单子项 */
+
+            for(var i = 0; i < li_arr.length; i++)
+            {
+                li_content += "<li>"+li_arr[i]+"</li>";
+
+            }
+            var list = "<ul >"+li_content+"</ul>";
+            $("#more_sort").parent().append(list);
+
+        });
+
+        
+    -->
+    </script>
+
+      <div class="fl cart-yh">
+        <a href="user.php" class="">My Account</a>
+      </div>
+      <div class="cart" id="ECS_CARTINFO"> <a href="flow.php" title="Cart">MY BAG(0)</a> </div>
+    </div>
+  </div>
+</div>
+<div class="nav-menu">
+  <div class="wrap">
+    <div class="logo"><a href="index.php" name="top"><img src="themes/default/images/logo.jpg" /></a></div>
+    <div id="mainNav" class="clearfix maxmenu">
+      <div class="m_left">
+      <ul id = "myBanner">
+        <li><a href="index.php">Home</a></li>
+                        <li><a href="category.php?id=16" title = "Clothing"
+
+        
+                    >Clothing</a></li>
+                                        <li><a href="category.php?id=58" title = "Wristwatch"
+
+        
+                    >Wristwatch</a></li>
+                                        <li><a href="category.php?id=25" title = "Digital Fashion"
+
+        
+                    >Digital Fashion</a></li>
+                                        <li><a href="#" title = "More Sort"
+
+                     id ="more_sort"
+        
+                    >More Sort</a></li>
+                                        <li><a href="category.php?id=1" title = "Pets"
+
+        
+                    >Pets</a></li>
+                                        <li><a href="category.php?id=18" title = "Home"
+
+        
+                    >Home</a></li>
+                                        <li><a href="category.php?id=12" title = "Furniture & Decor"
+
+        
+                    >Furniture & Decor</a></li>
+                                        <li><a href="category.php?id=41" title = "Housekeeping"
+
+        
+                    >Housekeeping</a></li>
+                                        <li><a href="category.php?id=34" title = "Women's Clothing"
+
+        
+                    >Women's Clothing</a></li>
+                                        <li><a href="category.php?id=35" title = "Children's Clothing"
+
+        
+                    >Children's Clothing</a></li>
+                                                <li><a href="category.php?id=33" title = "Men's Clothing"
+
+        
+                    >Men's Clothing</a></li>
+                                        <li><a href="category.php?id=49"
+
+                    >Mobile & Tablets Accessories</a></li>
+                              </ul>
+      </div>
+    </div>
+   <!-- 20180805屏蔽搜索框开始
+    <div class="serach-box">
+      <form id="searchForm" name="searchForm" method="get" action="search.php" onSubmit="return checkSearchForm()" class="f_r">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="135"><input name="keywords" type="text" id="keyword" value="" class="B_input"  /></td>
+            <td><input name="imageField" type="submit" value="Search" class="go" style="cursor:pointer;" /></td>
+          </tr>
+        </table>
+      </form>
+    </div>
+   屏蔽搜索框结束 -->
+  </div>
+</div>
+<div class="clear0 "></div>
+ <div class="category-body">
+  <div id="ur_here"> <div class="path"><div>My location: <a href=".">Home</a> <code>&gt;</code> <a href="category.php?id=16">Clothing</a> <code>&gt;</code> <a href="category.php?id=35">Children's Clothing</a></div></div> </div>
+ 
+
+<div class="block clearfix">
+
+  
+  <div class="Area">
+    
+        <div class="guige">
+            <div class="screeBox"> <strong>Brand：</strong>
+                        <span>All</span>
+                                <a href="category.php?id=35&amp;brand=132&amp;price_min=0&amp;price_max=0">MEIYIER</a>
+                                <a href="category.php?id=35&amp;brand=133&amp;price_min=0&amp;price_max=0">YOUYOU</a>
+                                <a href="category.php?id=35&amp;brand=189&amp;price_min=0&amp;price_max=0">MIAODILA</a>
+                                <a href="category.php?id=35&amp;brand=190&amp;price_min=0&amp;price_max=0">Little maven</a>
+                      </div>
+                        <div class="clear0"></div>
+    </div>
+
+        
+    
+<div class="prclist">
+  <div class="displaylist">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td class="tdl"><span></span>Total 51 records </td>
+        <td><a name='goods_list'></a></td>
+        <td class="tdr"><table border="0" cellspacing="0" cellpadding="0">
+            <tr>
+            <td>Sort By:</td>
+              <td><form method="GET" class="sort list-paixu" name="listform">
+                    <a href="category.php?category=35&display=grid&brand=0&price_min=0&price_max=0&filter_attr=0&page=1&sort=goods_id&order=ASC#goods_list"><img src="themes/default/images/goods_id_DESC_en_us.gif" alt="Sort by time"></a> <a href="category.php?category=35&display=grid&brand=0&price_min=0&price_max=0&filter_attr=0&page=1&sort=shop_price&order=ASC#goods_list"><img src="themes/default/images/shop_price_default_en_us.gif" alt="Sort by price"></a> <a href="category.php?category=35&display=grid&brand=0&price_min=0&price_max=0&filter_attr=0&page=1&sort=last_update&order=DESC#goods_list"><img src="themes/default/images/last_update_default_en_us.gif" alt="Sort by update"></a>
+                  <input type="hidden" name="category" value="35" />
+                  <input type="hidden" name="display" value="grid" id="display" />
+                  <input type="hidden" name="brand" value="0" />
+                  <input type="hidden" name="price_min" value="0" />
+                  <input type="hidden" name="price_max" value="0" />
+                  <input type="hidden" name="filter_attr" value="0" />
+                  <input type="hidden" name="page" value="1" />
+                  <input type="hidden" name="sort" value="goods_id" />
+                  <input type="hidden" name="order" value="DESC" />
+                </form></td>
+            </tr>
+          </table></td>
+      </tr>
+    </table>
+  </div>
+  <div class="blank5"></div>
+    <form name="compareForm" action="compare.php" method="post" onSubmit="return compareGoods(this);">
+            <div class="centerPadd">
+      <div class="clearfix goodsBox" style="border:none;">
+                        <div class="goodsItem"> <a href="goods.php?id=1755" class="img-box"><img src="images/201803/thumb_img/1755_thumb_G_1521704762845.jpg" alt="Girl's European Style Cartoon Printed Short Sleeves Dre..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1755" title="Girl's European Style Cartoon Printed Short Sleeves Dress">Girl's European Style Cartoon Printed Short Sleeves Dre...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM12.00</div>
+              <a class="price-btn" href="goods.php?id=1755">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1753" class="img-box"><img src="images/201803/thumb_img/1753_thumb_G_1521704322800.jpg" alt="Children's European Style Pure Cotton Bunny Printed T-S..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1753" title="Children's European Style Pure Cotton Bunny Printed T-Shirt">Children's European Style Pure Cotton Bunny Printed T-S...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM15.30</div>
+              <a class="price-btn" href="goods.php?id=1753">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1751" class="img-box"><img src="images/201803/thumb_img/1751_thumb_G_1521108257622.jpg" alt="Girl's Pure Cotton Cute Cartoon Printed Dress" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1751" title="Girl's Pure Cotton Cute Cartoon Printed Dress">Girl's Pure Cotton Cute Cartoon Printed Dress</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM15.00</div>
+              <a class="price-btn" href="goods.php?id=1751">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1750" class="img-box"><img src="images/201803/thumb_img/1750_thumb_G_1521107809647.jpg" alt="Little Maven Girl's Pure Cotton Cute Cartoon Printed Sh..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1750" title="Little Maven Girl's Pure Cotton Cute Cartoon Printed Short Sleeves Dress">Little Maven Girl's Pure Cotton Cute Cartoon Printed Sh...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM18.90</div>
+              <a class="price-btn" href="goods.php?id=1750">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1749" class="img-box"><img src="images/201803/thumb_img/1749_thumb_G_1521107306594.jpg" alt="Girl's European Style Pure Cotton Short Sleeves Set" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1749" title="Girl's European Style Pure Cotton Short Sleeves Set">Girl's European Style Pure Cotton Short Sleeves Set</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM25.20</div>
+              <a class="price-btn" href="goods.php?id=1749">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1748" class="img-box"><img src="images/201803/thumb_img/1748_thumb_G_1521108052088.jpg" alt="Girl's European Style Printed Round Neck Short Sleeves ..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1748" title="Girl's European Style Printed Round Neck Short Sleeves T-Shirt">Girl's European Style Printed Round Neck Short Sleeves ...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM16.02</div>
+              <a class="price-btn" href="goods.php?id=1748">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1747" class="img-box"><img src="images/201803/thumb_img/1747_thumb_G_1521107676199.jpg" alt="Boy's European Style Round Neck Short Sleeves T-Shirt" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1747" title="Boy's European Style Round Neck Short Sleeves T-Shirt">Boy's European Style Round Neck Short Sleeves T-Shirt</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM14.31</div>
+              <a class="price-btn" href="goods.php?id=1747">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1746" class="img-box"><img src="images/201803/thumb_img/1746_thumb_G_1521705049525.jpg" alt="Girl's European Style Pure Cotton Butterflies Printed T..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1746" title="Girl's European Style Pure Cotton Butterflies Printed T-Shirt">Girl's European Style Pure Cotton Butterflies Printed T...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM13.50</div>
+              <a class="price-btn" href="goods.php?id=1746">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1745" class="img-box"><img src="images/201803/thumb_img/1745_thumb_G_1521107140949.jpg" alt="Girl's European Style Pure Cotton Stripes Printed Dress" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1745" title="Girl's European Style Pure Cotton Stripes Printed Dress">Girl's European Style Pure Cotton Stripes Printed Dress</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM16.20</div>
+              <a class="price-btn" href="goods.php?id=1745">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1744" class="img-box"><img src="images/201806/thumb_img/1744_thumb_G_1530077285184.jpg" alt="Children's European Style Printed Short Sleeves and Sho..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1744" title="Children's European Style Printed Short Sleeves and Shorts Set">Children's European Style Printed Short Sleeves and Sho...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM23.40</div>
+              <a class="price-btn" href="goods.php?id=1744">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1738" class="img-box"><img src="images/201803/thumb_img/1738_thumb_G_1521106669446.jpg" alt="Girl's Knitted Pure Cotton Cartoon Printed Shorts" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1738" title="Girl's Knitted Pure Cotton Cartoon Printed Shorts">Girl's Knitted Pure Cotton Cartoon Printed Shorts</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM10.00</div>
+              <a class="price-btn" href="goods.php?id=1738">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1737" class="img-box"><img src="images/201803/thumb_img/1737_thumb_G_1521106217048.jpg" alt="Girl's European Style Pure Cotton Cartoon Printed Dress" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1737" title="Girl's European Style Pure Cotton Cartoon Printed Dress">Girl's European Style Pure Cotton Cartoon Printed Dress</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM12.00</div>
+              <a class="price-btn" href="goods.php?id=1737">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1736" class="img-box"><img src="images/201803/thumb_img/1736_thumb_G_1521104821480.jpg" alt="Children's European Style Pure Cotton Plain Colored Sho..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1736" title="Children's European Style Pure Cotton Plain Colored Shorts">Children's European Style Pure Cotton Plain Colored Sho...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM10.00</div>
+              <a class="price-btn" href="goods.php?id=1736">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1735" class="img-box"><img src="images/201803/thumb_img/1735_thumb_G_1521105830657.jpg" alt="Girl's Performance Fairy Blue Dress" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1735" title="Girl's Performance Fairy Blue Dress">Girl's Performance Fairy Blue Dress</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM55.80</div>
+              <a class="price-btn" href="goods.php?id=1735">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1734" class="img-box"><img src="images/201803/thumb_img/1734_thumb_G_1521104875438.jpg" alt="Girl's 3-12 Years Old Rainbow Mesh Tutu Dress" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1734" title="Girl's 3-12 Years Old Rainbow Mesh Tutu Dress">Girl's 3-12 Years Old Rainbow Mesh Tutu Dress</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM50.40</div>
+              <a class="price-btn" href="goods.php?id=1734">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1733" class="img-box"><img src="images/201803/thumb_img/1733_thumb_G_1521103770362.jpg" alt="Girl's Performance Dancing Mesh Tutu Dress" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1733" title="Girl's Performance Dancing Mesh Tutu Dress">Girl's Performance Dancing Mesh Tutu Dress</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM50.40</div>
+              <a class="price-btn" href="goods.php?id=1733">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1732" class="img-box"><img src="images/201803/thumb_img/1732_thumb_G_1521103230940.jpg" alt="Girl's Korean Style Long Sleeves Lace Dress" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1732" title="Girl's Korean Style Long Sleeves Lace Dress">Girl's Korean Style Long Sleeves Lace Dress</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM55.80</div>
+              <a class="price-btn" href="goods.php?id=1732">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1731" class="img-box"><img src="images/201803/thumb_img/1731_thumb_G_1521102489157.jpg" alt="Girl's Embroidery Sleeveless Shirt + Shorts Set" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1731" title="Girl's Embroidery Sleeveless Shirt + Shorts Set">Girl's Embroidery Sleeveless Shirt + Shorts Set</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM30.60</div>
+              <a class="price-btn" href="goods.php?id=1731">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1730" class="img-box"><img src="images/201803/thumb_img/1730_thumb_G_1521100016821.jpg" alt="Girl's Lotus Sleeve Shirt + Wide Leg Long Pants Set" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1730" title="Girl's Lotus Sleeve Shirt + Wide Leg Long Pants Set ">Girl's Lotus Sleeve Shirt + Wide Leg Long Pants Set</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM27.00</div>
+              <a class="price-btn" href="goods.php?id=1730">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1729" class="img-box"><img src="images/201803/thumb_img/1729_thumb_G_1521099565271.jpg" alt="Girl's Sunflower Lacework and National wind Dress" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1729" title="Girl's Sunflower Lacework and National wind Dress">Girl's Sunflower Lacework and National wind Dress</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM26.10</div>
+              <a class="price-btn" href="goods.php?id=1729">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1728" class="img-box"><img src="images/201803/thumb_img/1728_thumb_G_1521099033308.jpg" alt="Girl's Ethnic Style Lotus Collar Sleeveless Shirt + Sho..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1728" title="Girl's Ethnic Style Lotus Collar Sleeveless Shirt + Shorts 2 Pieces Set">Girl's Ethnic Style Lotus Collar Sleeveless Shirt + Sho...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM24.30</div>
+              <a class="price-btn" href="goods.php?id=1728">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1646" class="img-box"><img src="images/201801/thumb_img/1646_thumb_G_1517223208538.jpg" alt="Children's Unisex Long Sleeves UV Guard 2-pieces Diver ..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1646" title="Children's Unisex Long Sleeves UV Guard 2-pieces Diver Swimwear Set">Children's Unisex Long Sleeves UV Guard 2-pieces Diver ...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM55.80</div>
+              <a class="price-btn" href="goods.php?id=1646">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1642" class="img-box"><img src="images/201801/thumb_img/1642_thumb_G_1517210288047.jpg" alt="Children's Short Sleeves UV Guard 2-pieces Swimwear Set" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1642" title="Children's Short Sleeves UV Guard 2-pieces Swimwear Set">Children's Short Sleeves UV Guard 2-pieces Swimwear Set</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM29.70</div>
+              <a class="price-btn" href="goods.php?id=1642">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1557" class="img-box"><img src="images/201801/thumb_img/1557_thumb_G_1515324478460.jpg" alt="Boy's Korean Style Pure Cotton Printed Oxford Textile S..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1557" title="Boy's Korean Style Pure Cotton Printed Oxford Textile Short Sleeves Collar Shirt">Boy's Korean Style Pure Cotton Printed Oxford Textile S...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM24.30</div>
+              <a class="price-btn" href="goods.php?id=1557">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1556" class="img-box"><img src="images/201801/thumb_img/1556_thumb_G_1515324227388.jpg" alt="Boy's Pure Cotton Car Printed Short Sleeves Polo T-Shir..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1556" title="Boy's Pure Cotton Car Printed Short Sleeves Polo T-Shirt">Boy's Pure Cotton Car Printed Short Sleeves Polo T-Shir...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM20.70</div>
+              <a class="price-btn" href="goods.php?id=1556">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1555" class="img-box"><img src="images/201801/thumb_img/1555_thumb_G_1515323983534.jpg" alt="Boy's Pure Cotton Stripes Printed Yacht Embroidery T-Sh..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1555" title="Boy's Pure Cotton Stripes Printed Yacht Embroidery T-Shirt">Boy's Pure Cotton Stripes Printed Yacht Embroidery T-Sh...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM18.00</div>
+              <a class="price-btn" href="goods.php?id=1555">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1554" class="img-box"><img src="images/201801/thumb_img/1554_thumb_G_1515323774995.jpg" alt="Boy's Pure Cotton Cartoon Printed Short Sleeves T-Shirt" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1554" title="Boy's Pure Cotton Cartoon Printed Short Sleeves T-Shirt">Boy's Pure Cotton Cartoon Printed Short Sleeves T-Shirt</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM17.20</div>
+              <a class="price-btn" href="goods.php?id=1554">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1553" class="img-box"><img src="images/201801/thumb_img/1553_thumb_G_1515323564552.jpg" alt="Boy's Pure Cotton Stripes Printed Cartoon Casual Shorts" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1553" title="Boy's Pure Cotton Stripes Printed Cartoon Casual Shorts">Boy's Pure Cotton Stripes Printed Cartoon Casual Shorts</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM21.60</div>
+              <a class="price-btn" href="goods.php?id=1553">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1552" class="img-box"><img src="images/201801/thumb_img/1552_thumb_G_1515323302442.jpg" alt="Boy's Korean Style Pure Cotton Plain Colored Shorts" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1552" title="Boy's Korean Style Pure Cotton Plain Colored Shorts">Boy's Korean Style Pure Cotton Plain Colored Shorts</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM20.70</div>
+              <a class="price-btn" href="goods.php?id=1552">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1551" class="img-box"><img src="images/201801/thumb_img/1551_thumb_G_1515323056038.jpg" alt="Boy's Pure Cotton Camo Printed Shorts" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1551" title="Boy's Pure Cotton Camo Printed Shorts">Boy's Pure Cotton Camo Printed Shorts</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM23.40</div>
+              <a class="price-btn" href="goods.php?id=1551">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1550" class="img-box"><img src="images/201801/thumb_img/1550_thumb_G_1515322804656.jpg" alt="Boy's Pure Cotton Embroidery Smiley Face Twill Casual P..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1550" title="Boy's Pure Cotton Embroidery Smiley Face Twill Casual Pants">Boy's Pure Cotton Embroidery Smiley Face Twill Casual P...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM27.00</div>
+              <a class="price-btn" href="goods.php?id=1550">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1549" class="img-box"><img src="images/201801/thumb_img/1549_thumb_G_1515322577540.jpg" alt="Boy's Pure Cotton Sports Suits Spring and Autumn" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1549" title="Boy's Pure Cotton Sports Suits Spring and Autumn">Boy's Pure Cotton Sports Suits Spring and Autumn</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM21.60</div>
+              <a class="price-btn" href="goods.php?id=1549">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1548" class="img-box"><img src="images/201801/thumb_img/1548_thumb_G_1515322029278.jpg" alt="Boy's Embroidery Yacht Casual Baseball Jacket" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1548" title="Boy's Embroidery Yacht Casual Baseball Jacket">Boy's Embroidery Yacht Casual Baseball Jacket</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM33.30</div>
+              <a class="price-btn" href="goods.php?id=1548">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1547" class="img-box"><img src="images/201801/thumb_img/1547_thumb_G_1515321733585.jpg" alt="Boy's Embroidery Skate Shoes Cartoon Shorts" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1547" title="Boy's Embroidery Skate Shoes Cartoon Shorts">Boy's Embroidery Skate Shoes Cartoon Shorts</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM17.10</div>
+              <a class="price-btn" href="goods.php?id=1547">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1546" class="img-box"><img src="images/201801/thumb_img/1546_thumb_G_1515321382541.jpg" alt="Girl's Pure Cotton Summer Dress Explosive models" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1546" title="Girl's Pure Cotton Summer Dress Explosive models">Girl's Pure Cotton Summer Dress Explosive models</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM22.50</div>
+              <a class="price-btn" href="goods.php?id=1546">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1545" class="img-box"><img src="images/201801/thumb_img/1545_thumb_G_1515321163866.jpg" alt="Girl's Pure Cotton Summer Dress Children's clothing" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1545" title="Girl's Pure Cotton Summer Dress Children's clothing">Girl's Pure Cotton Summer Dress Children's clothing</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM29.70</div>
+              <a class="price-btn" href="goods.php?id=1545">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1544" class="img-box"><img src="images/201807/thumb_img/1544_thumb_G_1531807889775.jpg" alt="Girl's Pure Cotton Short Sleeves T-Shirt" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1544" title="Girl's Pure Cotton Short Sleeves T-Shirt">Girl's Pure Cotton Short Sleeves T-Shirt</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM20.70</div>
+              <a class="price-btn" href="goods.php?id=1544">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1543" class="img-box"><img src="images/201801/thumb_img/1543_thumb_G_1515319241867.jpg" alt="Girl's Pure Cotton Short Sleeves Dress" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1543" title="Girl's Pure Cotton Short Sleeves Dress">Girl's Pure Cotton Short Sleeves Dress</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM17.20</div>
+              <a class="price-btn" href="goods.php?id=1543">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1542" class="img-box"><img src="images/201801/thumb_img/1542_thumb_G_1515318965497.jpg" alt="Boy's Korean Style Pure Cotton Short Sleeves Collar Shi..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1542" title="Boy's Korean Style Pure Cotton Short Sleeves Collar Shirt">Boy's Korean Style Pure Cotton Short Sleeves Collar Shi...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM22.50</div>
+              <a class="price-btn" href="goods.php?id=1542">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1541" class="img-box"><img src="images/201801/thumb_img/1541_thumb_G_1515318628699.jpg" alt="Girl's Korean Style Flowers Singlet Dress Top + Shorts ..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1541" title="Girl's Korean Style Flowers Singlet Dress Top + Shorts Set">Girl's Korean Style Flowers Singlet Dress Top + Shorts ...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM23.40</div>
+              <a class="price-btn" href="goods.php?id=1541">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1540" class="img-box"><img src="images/201801/thumb_img/1540_thumb_G_1515318254560.jpg" alt="Girl's Korean Style Sleeveless Lace Shirt + Black Lace ..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1540" title="Girl's Korean Style Sleeveless Lace Shirt + Black Lace Tutu Skirt">Girl's Korean Style Sleeveless Lace Shirt + Black Lace ...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM27.00</div>
+              <a class="price-btn" href="goods.php?id=1540">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1539" class="img-box"><img src="images/201801/thumb_img/1539_thumb_G_1515317911476.jpg" alt="Girl's Korean Style 3D Patch Organza Sleeveless Dress" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1539" title="Girl's Korean Style 3D Patch Organza Sleeveless Dress">Girl's Korean Style 3D Patch Organza Sleeveless Dress</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM26.10</div>
+              <a class="price-btn" href="goods.php?id=1539">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1538" class="img-box"><img src="images/201801/thumb_img/1538_thumb_G_1515317571596.jpg" alt="Girl's Sexy Backless Sleeveless Dress" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1538" title="Girl's Sexy Backless Sleeveless Dress">Girl's Sexy Backless Sleeveless Dress</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM21.60</div>
+              <a class="price-btn" href="goods.php?id=1538">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1537" class="img-box"><img src="images/201801/thumb_img/1537_thumb_G_1515317228288.jpg" alt="Girl's Korean Style Casual Ice Cream Short Sleeves T-Sh..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1537" title="Girl's Korean Style Casual Ice Cream Short Sleeves T-Shirt Set">Girl's Korean Style Casual Ice Cream Short Sleeves T-Sh...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM21.60</div>
+              <a class="price-btn" href="goods.php?id=1537">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1536" class="img-box"><img src="images/201801/thumb_img/1536_thumb_G_1515316523408.jpg" alt="Girl's 2018 Trendy Korean Style OL Stripes Lotus Sleeve..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1536" title="Girl's 2018 Trendy Korean Style OL Stripes Lotus Sleeves Sweet Skorts ">Girl's 2018 Trendy Korean Style OL Stripes Lotus Sleeve...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM25.20</div>
+              <a class="price-btn" href="goods.php?id=1536">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1535" class="img-box"><img src="images/201801/thumb_img/1535_thumb_G_1515315997086.jpg" alt="Girl's 2018 Trendy Flowers Sleeveless T-Shirt + Shorts ..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1535" title="Girl's 2018 Trendy Flowers Sleeveless T-Shirt + Shorts with Belt">Girl's 2018 Trendy Flowers Sleeveless T-Shirt + Shorts ...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM22.50</div>
+              <a class="price-btn" href="goods.php?id=1535">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1534" class="img-box"><img src="images/201801/thumb_img/1534_thumb_G_1515315497970.jpg" alt="Girl's Korean Style Cute Girl Lotus Sleeves + Shorts Se..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1534" title="Girl's Korean Style Cute Girl Lotus Sleeves + Shorts Set">Girl's Korean Style Cute Girl Lotus Sleeves + Shorts Se...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM20.70</div>
+              <a class="price-btn" href="goods.php?id=1534">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=1124" class="img-box"><img src="images/201711/thumb_img/1124_thumb_G_1509526090146.jpg" alt="Children's 1-Piece Short Sleeve Swimwear" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=1124" title="Children's 1-Piece Short Sleeve Swimwear">Children's 1-Piece Short Sleeve Swimwear</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM24.30</div>
+              <a class="price-btn" href="goods.php?id=1124">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=782" class="img-box"><img src="images/201710/thumb_img/782_thumb_G_1508661752614.jpg" alt="Children's Unisex Long Sleeves One-piece Diver Swimwear..." class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=782" title="Children's Unisex Long Sleeves One-piece Diver Swimwear Set">Children's Unisex Long Sleeves One-piece Diver Swimwear...</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM47.70</div>
+              <a class="price-btn" href="goods.php?id=782">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=615" class="img-box"><img src="images/201710/thumb_img/615_thumb_G_1508662026378.jpg" alt="Girl's One-piece Princess Skirt Swimwear" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=615" title="Girl's One-piece Princess Skirt Swimwear">Girl's One-piece Princess Skirt Swimwear</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM29.70</div>
+              <a class="price-btn" href="goods.php?id=615">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                <div class="goodsItem"> <a href="goods.php?id=593" class="img-box"><img src="images/201710/thumb_img/593_thumb_G_1508662766867.jpg" alt="Girl's One-piece Long Sleeve Pants Swimsuit" class="goodsimg" /></a>
+        <div class="goods-info">
+            <div class="goods-title"><a href="goods.php?id=593" title="Girl's One-piece Long Sleeve Pants Swimsuit">Girl's One-piece Long Sleeve Pants Swimsuit</a></div>
+            <div class="goods-ms">
+                          </div>
+            <div class="clearfix price-box">
+              <div class="shop_s">RM49.50</div>
+              <a class="price-btn" href="goods.php?id=593">Buy now</a>
+            </div>
+            
+        </div>
+        </div>
+                                      </div>
+    </div>
+          </form>
+  </div>
+<div class="blank5"></div>
+<script type="Text/Javascript" language="JavaScript">
+<!--
+
+function selectPage(sel)
+{
+  sel.form.submit();
+}
+
+//-->
+</script>
+<script type="text/javascript">
+window.onload = function()
+{
+  Compare.init();
+  fixpng();
+}
+var button_compare = '';
+var exist = "You have chosen %s";
+var count_limit = "Maximum 4 products can be chosen for comparison";
+var goods_type_different = "\"%s\"cannot be compared with products chosen due to types differences";
+var compare_no_goods = "You didn't selected any products with comparative or the product number is less than 2.";
+var btn_buy = "Buy";
+var is_cancel = "Cancel";
+var select_spe = "Please choose attributes of the goods";
+</script><div class="page-form clearfix">
+
+<form name="selectPageForm" action="/category.php" method="get">
+    
+  <div id="pager" class="pagebar">
+                          </div>
+  
+  </form>
+<script type="Text/Javascript" language="JavaScript">
+<!--
+
+function selectPage(sel)
+{
+  sel.form.submit();
+}
+
+//-->
+</script>
+</div> </div>
+  
+</div>
+</div>
+<div class="blank"></div>
+<a href="javascript:;" id="scroll";title="回到顶部"></a>
+<div class="foot-body" style="clear:both">
+  <div class="bads"></div>
+  <div class="clear10"></div>
+  
+     <div class="foot-help">
+                      <dl>
+          <dt class="xs-1">New User Guide</dt>
+                      <dd><a href="article.php?id=9" target="_blank" title="After Sales Support">After Sales Supp...</a></dd>
+                    <dd><a href="article.php?id=10" target="_blank" title="Shopping Procedures">Shopping Procedu...</a></dd>
+                    <dd><a href="article.php?id=11" target="_blank" title="How to Order">How to Order</a></dd>
+           
+        </dl>
+         
+                        <dl>
+          <dt class="xs-2">About Mobile Phones</dt>
+                      <dd><a href="article.php?id=12" target="_blank" title="How to Identify the Original Battery">How to Identify ...</a></dd>
+                    <dd><a href="article.php?id=13" target="_blank" title="How to Identify if Your Phone Is a Clone">How to Identify ...</a></dd>
+                    <dd><a href="article.php?id=14" target="_blank" title="National Warranty Benefits">National Warrant...</a></dd>
+           
+        </dl>
+         
+                        <dl>
+          <dt class="xs-3">Shipping & Payment</dt>
+                      <dd><a href="article.php?id=15" target="_blank" title="Cash on Delivery Zone">Cash on Delivery...</a></dd>
+                    <dd><a href="article.php?id=16" target="_blank" title="Delivery &amp; Charges">Delivery & Charg...</a></dd>
+                    <dd><a href="article.php?id=17" target="_blank" title="Payment">Payment</a></dd>
+           
+        </dl>
+         
+                        <dl>
+          <dt class="xs-4">Membership Centre</dt>
+                      <dd><a href="article.php?id=18" target="_blank" title="My Wallet">My Wallet</a></dd>
+                    <dd><a href="article.php?id=19" target="_blank" title="My Favourite">My Favourite</a></dd>
+                    <dd><a href="article.php?id=20" target="_blank" title="My Order">My Order</a></dd>
+           
+        </dl>
+         
+                 
+                 
+         
+        <div class="foot-weixin">
+          <div class="weixin-txt">
+                             
+                            
+          </div>
+          <div class="weixin-pic">
+            <!--<img src="themes/default/images/weixin.jpg">-->
+          </div>
+        
+        </div>
+    </div>
+     
+    
+   
+  
+  <div class="blank"></div>
+  
+<div class="footer_info"> &copy; 2005-2018 Igo2all Copyright, All Rights Reserved.       <br />
+      <div id='cnzz_stat_icon_1274121491'></div><br/>
+     <!-- <a href="http://xyunqi.com/products/ecshop?from=nav" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v3.6.0</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Fwww.igo2all.com%2F" target="_blank"
+>&nbsp;&nbsp;Licensed</a><br /> -->
+          </div>
+  <div class="clear10"></div>
+</div>
+
+
+  
+<script type="text/javascript">  
+   //20180505新增英文回到顶部
+   var lang = "en_us";  
+      if(lang == "en_us")
+      {
+       $("#scroll").css("background","url(themes/default/images/top_bg_en.png) no-repeat left top");
+
+       $("#scroll").hover(function () {
+           $(this).css("background","url(themes/default/images/top_bg_en.png) no-repeat 0 -40px");
+       },function () {
+           $(this).css("background","url(themes/default/images/top_bg_en.png) no-repeat left top");
+       });
+
+      }
+  var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+  document.write(unescape("%3Cspan id='cnzz_stat_icon_1274121491'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1274121491%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+      
+</script>  
+
+
+
+<script>
+window.onload = function () {
+    
+    var obtn = document.getElementById('scroll');
+    var time = null;
+    var isTop = true;
+   
+      
+    //获取可视区域的高度
+    var ch = document.documentElement.clientHeight;
+
+    window.onscroll=function () {
+
+        var osTop = document.documentElement.scrollTop || document.body.scrollTop;
+        if(osTop>=ch)
+        {
+            obtn.style.display='block';
+        }
+        else
+        {
+            obtn.style.display='none';
+            }
+        if(!isTop)
+        {
+            clearInterval(time);
+        }
+        isTop=false;
+    }
+
+    obtn.onclick = function () {
+        clearInterval(time);
+        time = setInterval(function () {
+            var osTop = document.documentElement.scrollTop || document.body.scrollTop;
+            var ispeed = Math.floor(-osTop/6);//Math.floor取整
+            isTop=true;
+            document.documentElement.scrollTop=document.body.scrollTop=osTop+ispeed;
+            if(osTop==0)
+            {
+                clearInterval(time);
+            }
+        },30);
+
+
+    }
+}
+</script>
+<script type="text/javascript">function add_chatinline(){var hccid=61774287;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+add_chatinline(); </script></body>
+</html>
