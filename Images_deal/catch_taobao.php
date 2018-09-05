@@ -70,38 +70,40 @@ function get_detail_img($url,$path)
     //获取详情图的内容
     if(preg_match_all($pattern,$res,$content_matches))
     {
-        $url_pattern = '/src="(.*?)"/';
-        //clear_info();
-        echo ">>>>>>>>>>>>>>>>>>>开始处理>>>>>>>>>>>>>>>>>><br/><br/>";
-        set_time_limit(0);//取消请求超时时限
-        foreach ($content_matches[0] as $value)
+        //若img的格式不为<img alt src>类型，则全部选取img标签
+        if(count($content_matches[0]) < 3)
         {
-            $count ++;
-            //获取img标签中src的内容
-            if(preg_match($url_pattern,$value,$url_matches))
+            $pattern = '/<img (.*?) src=\"(.*?)\" (.*?)>/';
+            if(preg_match_all($pattern,$res,$content_matches))
             {
-                //提取最后的图片链接
-                $url = substr($url_matches[0],5,strlen($url_matches[0])-6);
-                $fileName = $count.".jpg";
-                //flush();
-               // sleep(1);
-                echo "获取图片链接：".$url."<br/><br/>";
-                $load_time = downLoadPicture($url, $path, $fileName);
-                echo "已成功下载图片：".$fileName."耗时约".$load_time."秒<br/><br/>";
+                $url_pattern = '/src="(.*?)"/';
+                //clear_info();
+                echo "<div style='color: #d43f3a'>>>>>>>>>>>>>开始处理（非正常状态，请注意区分！）>>>>>>>>>>></div><br/><br/>";
+                set_time_limit(0);//取消请求超时时限
+                foreach ($content_matches[0] as $value)
+                {
+                    $count ++;
+                    //获取img标签中src的内容
+                    if(preg_match($url_pattern,$value,$url_matches))
+                    {
+                        //提取最后的图片链接
+                        $url = substr($url_matches[0],5,strlen($url_matches[0])-6);
+                        $fileName = $count.".jpg";
+                        //flush();
+                        // sleep(1);
+                        echo "获取图片链接：".$url."<br/><br/>";
+                        $load_time = downLoadPicture($url, $path, $fileName);
+                        echo "已成功下载图片：".$fileName."耗时约".$load_time."秒<br/><br/>";
+                    }
+                }
             }
-        }
 
-    }else{//若以上常见的方式找不到商品图片，就将范围扩大
+        }else{
 
-
-        /*$pattern = '/<img alt=\"(.*?)\" (.*?)>/';
-
-        //获取详情图的内容
-        if(preg_match_all($pattern,$res,$content_matches))
-        {
             $url_pattern = '/src="(.*?)"/';
             //clear_info();
-            echo ">>>>>>>>>>>>>>>>>>>图片标签变化请注意区分，开始处理>>>>>>>>>>>>>>>>>><br/><br/>";
+            echo ">>>>>>>>>>>>>>>>>>>开始处理>>>>>>>>>>>>>>>>>><br/><br/>";
+            set_time_limit(0);//取消请求超时时限
             foreach ($content_matches[0] as $value)
             {
                 $count ++;
@@ -118,11 +120,10 @@ function get_detail_img($url,$path)
                     echo "已成功下载图片：".$fileName."耗时约".$load_time."秒<br/><br/>";
                 }
             }
+        }
 
-        }else{
-            echo "正则表达式无法匹配到结果！";
-        }*/
 
+    }else{//若以上常见的方式找不到商品图片，就将范围扩大
         echo "正则表达式无法匹配到结果！";
     }
 
